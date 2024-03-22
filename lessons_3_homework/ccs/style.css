@@ -1,0 +1,95 @@
+@import url("reset.css");
+
+h1 {
+    color: green;
+}
+
+span {
+    color: yellowgreen;
+}
+
+.beginning {
+    color: yellow;
+}
+
+.title {
+    color: gray;
+}
+
+#first-id {
+    color: red;
+}
+
+[class*="son"] {
+    color: rebeccapurple;
+}
+
+p.paragraf {
+    color: blue;
+}
+
+.page__text.text {
+    color: aqua;
+}
+
+.opis,
+.student,
+span {
+    color: chartreuse;
+    font-size: 20px;
+}
+
+.hobby p {
+    font-size: 15px;
+}
+
+.tourism * {
+    color: darkslategrey;
+    font-size: 15px;
+}
+
+.tourism>p {
+    color: red;
+}
+
+.text~p {
+    color: blue;
+}
+
+.title+p {
+    color: blue;
+    font-size: 25px;
+}
+
+/* Перший тег span {
+    color: chartreuse;
+    font-size: 20px;
+} */
+span {
+    font-size: 30px;
+    color: red;
+}
+
+.letter__description {
+    color: red;
+}
+
+/* Пріоритет */
+.building {
+    color: blue;
+}
+
+/* А тепер тут пріоритет */
+[class*="tter"] {
+    color: red;
+}
+
+/* Найвищий пріоритет */
+#second-id {
+    color: red;
+}
+
+/* span {
+    color: chartreuse;
+    font-size: 20px;
+} */
